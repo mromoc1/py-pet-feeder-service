@@ -4,17 +4,17 @@ app = Flask(__name__)
 estado = 'False'
 
 @app.route('/status')
-def hello_world():
+def status_func():
     return estado
 
 @app.route('/abrir')
-def hello_world():
+def open_func():
     global estado
     estado = 'True'
     return estado
 
 @app.route('/cerrar')
-def hello_world():
+def close_func():
     global estado
     estado = 'False'
     return estado
