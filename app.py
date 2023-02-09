@@ -3,6 +3,10 @@ app = Flask(__name__)
 
 estado = 'False'
 
+@app.route('/')
+def hello_world():
+    return "Hello, World!"
+
 @app.route('/status')
 def hello_world():
     return estado
