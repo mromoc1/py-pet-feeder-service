@@ -17,3 +17,12 @@ El proyecto actualmente posee una funcionalidad basica para controlar remotament
 - Clonar el repositorio
 - Instalar las dependencias
 - Ejecutar el servidor
+
+## Futuras implementaciones
+La presente lista de tareas son las que se tienen en mente para el futuro desarrollo del proyecto.
+- [ ] Agregar soporte para multiples usuarios y autenticacion
+- [ ] Agregar soporte para multiples dispositivos
+- [ ] Agregar soporte para automatizar por horario
+- [ ] Integrar nuevo enfoque hacia el control de agua con nuevos sensores
+- [ ] Desarrollar Interfaz Grafica de Usuario para el manejo de dispositivos
+- [ ] Integrar con servicios de notificaciones
